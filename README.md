@@ -4,6 +4,7 @@
 
 All repositories should contain:
 
+- a one-line description for Github, and at least one tag
 - a README with a clear statement of purpose
 - Documentation (either a wiki, or detailed README)
 - Test status (see `.drone.yml`)
