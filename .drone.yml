@@ -6,7 +6,7 @@ steps:
 - name: Deploy
   image: alpine
   commands:
-  - apk --update npm
+  - apk --update install npm
   - npm install -g markdownlint-cli
   - markdownlint README.md
 
