@@ -1,0 +1,12 @@
+kind: pipeline
+name: default
+
+steps:
+  
+- name: Deploy
+  image: alpine
+  commands:
+  - apk --update npm
+  - npm install -g markdownlint-cli
+  - markdownlint README.md
+
