@@ -3,7 +3,7 @@ name: default
 
 steps:
   
-- name: Deploy
+- name: Verify Packet Repo Standards
   image: alpine
   environment:
     GH_TOKEN:
